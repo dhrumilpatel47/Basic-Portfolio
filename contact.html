@@ -1,46 +1,82 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-  <meta charset="UTF-8">
+
   <title>Dhrumil Patel</title>
-  <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+  <!-- resets all styles -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <meta charset="UTF-8">
 
 </head>
 
 <body>
-  <div class="wrapper">
-     <section id="content">
-        <h1>Dhrumil Patel</h1>
 
-    
-        <a href="index.html">About </a>
-        <a href="portfolio.html">Portfolio </a>
-        <a href="contact.html">Contact </a>
+  <div class ="wrapper">
 
-        <div class="container">
-          <form action="action_page.php">
+    <header>
+      
+      <div class="userName">Dhrumil Patel</div>
+
+       
+      <div class="linkMenu">
+
+        <a href="index.html">About | </a>
+        <a href="portfolio.html">Potfolio | </a>
+        <a href="contact.html">Contact</a>
+
+      </div>
+
+    </header>
+
+
+    <div class="clearfix">
+
+    <section class ="content">
+
+      
+      <article>
+
         
-            <p>Name</p>
-            <input type="text" placeholder=".John Smith.">
+        <h1>Contact Me</h1>
+
+        <hr />
+
+        <div class="mailbox">
+
+          <p>Name</p>
+          <input type="text" name="name" value="John Smith">
+
+          <p>Email</p>
+          <input type="email" name="email" value="example@gmail.com">
+
+          <p>Message</p>
+          <textarea> </textarea>
           
-            <p>Email</p>
-            <input type="text" placeholder="example@gmail.com">
 
-            <p>Message</p>
-            <textarea class="message" row="8"></textarea>
-            <input type="submit" value="Submit" class="submit-button">
-          </form>
+          <br />
+          <button type="button">Submit</button>
+        </div>
 
-          </div>
-        </section>
-      </div>  
-  </body>
+      </article>
+      
+     
 
-  <section class="copyright">
-    <div class="copyright">			
-        <p>Copyright&#169 2018</p>
-    </div> 
-</section> 
+    </section>
+    
+  </div>
+
+ 
+  <footer class="clearfix">
+
+      2018&copy 
+
+  </footer>
+
+</div>
+
 </body>
 </html>
